@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+  int a,b,sum,min,max,div,mod;
+  clrscr();
+	a=12;
+	b=6;
+	sum=a+b;
+	min=a-b;
+	max=a*b;
+	div=a/b;
+	mod=a%b;
+	printf("Addtion of %d and %d is %d\n",a,b,sum);
+	printf("subscrition of %d and %d is %d\n",a,b,min);
+	printf("multiplication of %d and %d is %d\n",a,b,max);
+	printf("divided of %d and %d is %d\n",a,b,div);
+	printf("modulo of %d and % d is %d\n\n\n",a,b,mod);
+
+	printf("%d + %d = %d\n",a,b,sum);
+	printf("%d - %d = %d\n",a,b,min);
+	printf("%d * %d = %d\n",a,b,max);
+	printf("%d / %d = %d\n",a,b,div);
+	printf("%d modulo %d = %d",a,b,mod);
+  getch();
+}
